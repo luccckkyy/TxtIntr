@@ -1,1 +1,0 @@
-calculator.o: calculator.c

@@ -26,10 +26,10 @@ double wordToDouble(const char* word) {
 void print_help() {
     printf("Usage: calculator [-o operation] operand\n");
     printf("Operations:\n");
-    printf("  -o atg   - arctangent (in degrees or radians)\n");
-    printf("  -o actg  - arccotangent (in degrees or radians)\n");
-    printf("  -d       - result in degrees\n");
-    printf("  -r       - result in radians (default)\n");
+    printf("  -o atg   - арктангенс (в градусах или радианах)\n");
+    printf("  -o actg  - арккотангенс (в градусах или радианах)\n");
+    printf("  -d       - результат в градусах\n");
+    printf("  -r       - результат в радианах(как нравится)\n");
 }
 
 double atg(double x, int degrees) {
